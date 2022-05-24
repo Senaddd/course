@@ -28,3 +28,4 @@ console.log(userName.toUpperCase());
 
 let hobbies = ["Sports", "Cooking"];
 console.log([hobbies.length]);
+ 
