@@ -41,5 +41,4 @@ console.log(queryS);
 // 5. BONUS TASK: Try changing the text content of the <p> element
 //    you selected in (4) and set it to any other text of your choice
 
-document.querySelector("p") = "novi tekst";
-console.log(p);
+queryS = document.body.children[1].firstChild.data = "NoviTekst";
