@@ -2,31 +2,33 @@
 
 // 1. Select the <h1> element by "drilling into the DOM" and 
 //    save it in a variable with a name of your choice
-console.dir(document);
-let child = document.body.firstElementChild;
-console.log(child);
+// console.dir(document);
+// let child = document.body.firstElementChild;
+// console.dir(child);
+let h1Element = document.body.firstElementChild;
 
-
-
+// console.dir(h1Element);
 // 2. Use the variable from (1) and get access to the "parent"
 //    element of the stored <h1> element (i.e. to the <body> element)
 //    BONUS: Try using the variable from (1) to get access to the 
 //    sibling element (i.e. the <p> element next to the <h1> element)
-child = document.body;
-console.log(child);
+// child = document.body;
+// console.log(child);
 
-child = document.body.children[1];
-console.log(child);
+// child = document.body.children[1];
+// console.dir(child);
+
+console.dir(h1Element.parentElement);
 
 
-
+console.dir(h1Element.nextElementSibling);
 
 
 // 3. Select the <h1> element with getElementById and store in
 //    the same or a new variable (up to you)
 
 let idElement = document.getElementById("firsth");
-console.log(idElement);
+console.dir(idElement);
 
 
 // 4. Select the second <p> element with querySelector (you might
